@@ -21,19 +21,59 @@ p {
   font-weight: normal;
 }
 
-.hero {
-  background: var(--primary-color);
-  text-align: center;
-  padding: 120px 0;
-}
-
 .hero h1 {
-  font-size: 65px;
+  font-size: 85px;
+  padding-top: 40px;
 }
 
-.hero h2 {
+h2 {
   font-family: var(--secondary-font-family);
   font-weight: normal;
-  line-height: 2;
   font-size: 24px;
+  padding-top: 20px;
+}
+
+.img-Sam {
+  width: 200px;
+}
+
+.img-hero {
+  padding-left: 90px;
+}
+
+.hero {
+  background: var(--primary-color);
+}
+
+@media (max-width: 968px) {
+  .hero h1 {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+
+  .hero h2 {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .img-Sam {
+    width: 75px;
+  }
+
+  .img-hero {
+    padding-left: 40px;
+  }
+
+  .hero {
+    padding-right: 30px;
+  }
+
+  .hero-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
