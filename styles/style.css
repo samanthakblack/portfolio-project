@@ -21,16 +21,16 @@ p {
   font-weight: normal;
 }
 
-.hero h1 {
-  font-size: 85px;
-  padding-top: 40px;
-}
-
 h2 {
   font-family: var(--secondary-font-family);
   font-weight: normal;
   font-size: 24px;
-  padding-top: 20px;
+  padding-top: 15px;
+}
+
+.hero h1 {
+  font-size: 85px;
+  padding-top: 25px;
 }
 
 .img-Sam {
@@ -38,7 +38,7 @@ h2 {
 }
 
 .img-hero {
-  padding-left: 90px;
+  padding: 20px;
 }
 
 .hero {
@@ -61,7 +61,7 @@ h2 {
   }
 
   .img-Sam {
-    width: 75px;
+    width: 100px;
   }
 
   .img-hero {
