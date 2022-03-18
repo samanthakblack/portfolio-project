@@ -231,4 +231,24 @@ footer {
   .projects h2 {
     font-size: 28px;
   }
+
+  .navigation-container {
+    padding-top: 10px;
+    padding-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  nav li {
+    font-size: 15px;
+    padding-left: 10px;
+  }
+
+  nav ul {
+    padding-top: 15px;
+  }
+
+  nav h2 {
+    font-size: 15px;
+  }
 }
