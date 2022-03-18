@@ -1,6 +1,7 @@
 :root {
   --primary-color: #ddeedf;
   --secondary-color: #5c715e;
+  --accent-color: #b6cdbd;
   --primary-font-family: "Playfair Display", serif;
   --secondary-font-family: "Poppins", sans-serif;
 }
@@ -45,6 +46,44 @@ h2 {
   background: var(--primary-color);
 }
 
+.homepage-welcome p {
+  font-size: 23px;
+}
+
+.btn-homepage {
+  color: white;
+  background-color: var(--secondary-color);
+  border: 1px solid;
+  border-radius: 4px;
+  font-family: var(--primary-font-family);
+  font-size: 18px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.btn-homepage:hover {
+  color: black;
+  background-color: var(--accent-color);
+}
+
+.main-projects {
+  text-align: center;
+}
+
+.projects h2 {
+  font-family: var(--primary-font-family);
+  font-size: 50px;
+  text-align: center;
+}
+
+.img-project {
+  width: 450px;
+}
+
+.work-inquiry {
+  background-color: var(--primary-color);
+}
+
 @media (max-width: 968px) {
   .hero h1 {
     font-size: 30px;
@@ -75,5 +114,17 @@ h2 {
   .hero-container {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+
+  .homepage-welcome p {
+    font-size: 18px;
+  }
+
+  .img-project {
+    width: 250px;
+  }
+
+  .projects h2 {
+    font-size: 28px;
   }
 }
