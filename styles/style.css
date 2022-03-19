@@ -87,7 +87,8 @@ footer {
   padding: 20px;
 }
 
-.hero {
+.hero,
+.about-technologies {
   background: var(--primary-color);
 }
 
@@ -115,7 +116,8 @@ footer {
   text-align: center;
 }
 
-.projects h2 {
+.projects h2,
+.technologies h2 {
   font-family: var(--primary-font-family);
   font-size: 50px;
   text-align: center;
@@ -224,6 +226,10 @@ footer {
   margin-top: 50px;
 }
 
+.tech-skills {
+  width: 350px;
+}
+
 @media (max-width: 968px) {
   body {
     overflow-x: hidden;
@@ -268,7 +274,8 @@ footer {
     width: 250px;
   }
 
-  .projects h2 {
+  .projects,
+  .technologies h2 {
     font-size: 28px;
   }
 
@@ -313,5 +320,9 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .tech-skills {
+    width: 250px;
   }
 }
