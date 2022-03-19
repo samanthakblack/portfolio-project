@@ -245,6 +245,14 @@ footer {
     padding-top: 10px;
   }
 
+  .main-projects h2 {
+    font-size: 30px;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
+
   h3 {
     font-size: 20px;
   }
