@@ -96,7 +96,7 @@ footer {
   font-size: 23px;
 }
 
-.btn-homepage {
+.btn-main {
   color: white;
   background-color: var(--secondary-color);
   border: 1px solid;
@@ -107,7 +107,7 @@ footer {
   text-decoration: none;
 }
 
-.btn-homepage:hover {
+.btn-main:hover {
   color: black;
   background-color: var(--accent-color);
 }
@@ -227,6 +227,22 @@ footer {
 .img-SamAbout {
   width: 300px;
   margin-top: 50px;
+}
+
+.btn-projects {
+  color: white;
+  background-color: var(--secondary-color);
+  border: 1px solid;
+  border-radius: 4px;
+  font-family: var(--primary-font-family);
+  font-size: 16px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.btn-projects:hover {
+  color: black;
+  background-color: var(--accent-color);
 }
 
 .tech-skills {
