@@ -79,6 +79,11 @@ footer {
   padding-top: 25px;
 }
 
+.hero-secondary h1 {
+  font-size: 65px;
+  padding-top: 25px;
+}
+
 .img-Sam {
   width: 200px;
 }
@@ -88,6 +93,7 @@ footer {
 }
 
 .hero,
+.hero-secondary,
 .about-technologies {
   background: var(--primary-color);
 }
@@ -255,6 +261,10 @@ footer {
   }
 
   .hero h1 {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+  .hero-secondary h1 {
     font-size: 30px;
     padding-top: 10px;
   }
